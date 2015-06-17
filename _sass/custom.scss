@@ -1,3 +1,14 @@
 /*- Custom style -*/
 
 // -- Put custom style under this point -- //
+
+/*- Footer Link -*/
+footer{
+  a {
+  	color: $background-color;
+  	&:hover,
+  	&:focus {
+  		color: darken($background-color, 5%);
+  	}
+  }
+}
