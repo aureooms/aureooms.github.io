@@ -2,7 +2,7 @@
 
 // -- Put custom style under this point -- //
 
-/*- Footer Link -*/
+/*- Fix footer links color -*/
 footer{
   a {
   	color: $background-color;
@@ -10,5 +10,12 @@ footer{
   	&:focus {
   		color: darken($background-color, 5%);
   	}
+  }
+}
+
+/*- Fix pagination links color -*/
+.pagination {
+  a:hover {
+    background-color: lighten($main-color, 50%);
   }
 }
