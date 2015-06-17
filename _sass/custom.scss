@@ -19,3 +19,11 @@ footer{
     background-color: lighten($main-color, 50%);
   }
 }
+
+/*- Sticky footer. Solved by flexbox -*/
+
+#wrap {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
