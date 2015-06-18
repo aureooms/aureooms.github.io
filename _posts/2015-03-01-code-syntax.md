@@ -8,12 +8,12 @@ This is a CSS example:
 
 body {
   background-color: #fff;
-  }
+}
 
 h1 {
   color: #ffaa33;
   font-size: 1.5em;
-  }
+}
 
 {% endhighlight %}
 
