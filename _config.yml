@@ -12,7 +12,6 @@ baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: redcarpet
 source: .
 destination: ./_site
-keep_files: ./.well-known/
 include: ./keybase.txt
 permalink: /:title
 paginate: 8
