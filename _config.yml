@@ -13,6 +13,7 @@ markdown: redcarpet
 source: .
 destination: ./_site
 keep_files: ./.well-known/
+include: ./keybase.txt
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
