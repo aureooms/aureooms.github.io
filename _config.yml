@@ -12,7 +12,7 @@ baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: redcarpet
 source: .
 destination: ./_site
-include: ./keybase.txt
+include: [./keybase.txt]
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
@@ -33,3 +33,6 @@ version: "1.1.0"
 custom_header: false
 custom_nav_footer: true
 reverse: false
+
+# Gems
+gems: [jekyll-paginate]
