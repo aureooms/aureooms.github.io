@@ -36,3 +36,5 @@ constraints binding at \\(x\\).
 
 An extreme ray of the recession cone associated with a polyhedral set \\(P\\) is
 also called an extreme ray of \\(P\\).
+
+TO CONTINUE ...

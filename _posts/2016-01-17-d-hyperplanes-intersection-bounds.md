@@ -54,10 +54,10 @@ we can use the following (implied) equations which are true for all
 
 \\begin{align}
 	(a+\\lambda d) x + (b + \\lambda e ) y + ( c + \\lambda f ) &= 0\\\\
-	(\\mu a+ d) x + (\\mu b +  e ) y + ( \\mu c + f ) &= 0
+	(\\mu a+ d) x + (\\mu b +  e ) y + ( \\mu c + f ) &= 0.
 \\end{align}
 
-to find \\(x\\) by making \\(y\\) disappear, since \\(
+We can find \\(x\\) by making \\(y\\) disappear. Since \\(
 \\begin{vmatrix}
 a & b \\\\
 d & e \\\\
@@ -100,10 +100,10 @@ e & f \\\\
 a & b \\\\
 d & e \\\\
 \\end{vmatrix}
-},
+}.
 \\]
 
-and to find \\(y\\) by making \\(x\\) disappear, since \\(
+Similarily, we can find \\(y\\) by making \\(x\\) disappear. Since \\(
 \\begin{vmatrix}
 a & b \\\\
 d & e \\\\
@@ -187,10 +187,10 @@ we can use the following (implied) equations which are true for all
 	(\\alpha\_{1,2}+ \\alpha\_{2,2}y\_2 ) x\_2 = 0\\\\
 	(\\alpha\_{1,0}y\_1+ \\alpha\_{2,0} ) +
 	(\\alpha\_{1,1}y\_1+ \\alpha\_{2,1} ) x\_1 +
-	(\\alpha\_{1,2}y\_1+ \\alpha\_{2,2} ) x\_2 = 0
+	(\\alpha\_{1,2}y\_1+ \\alpha\_{2,2} ) x\_2 = 0.
 \\end{align}
 
-to find \\(x\_1\\) by making \\(x\_2\\) disappear, since \\(
+We can find \\(x\_1\\) by making \\(x\_2\\) disappear. Since \\(
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} \\\\
@@ -236,10 +236,10 @@ x\_1 = -\\frac{\\alpha\_{1,0}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,0}}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} \\\\
 \\end{vmatrix}
-},
+}.
 \\]
 
-and to find \\(x\_2\\) by making \\(x\_1\\) disappear, since \\(
+Similarily, we can find \\(x\_2\\) by making \\(x\_1\\) disappear. Since \\(
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} \\\\
@@ -341,6 +341,10 @@ x\_i = (-1)^i
 
 ### Proof
 
+By induction on \\(n\\). We reduce the problem of finding \\(x\_i\\) to the
+problem of finding a solution to a system of \\(n-1\\) linear equations with
+\\(n-1\\) unknowns.
+
 #### Base case
 
 We already showed that it holds for \\(n=1\\) and \\(n=2\\) in the examples
@@ -348,9 +352,8 @@ given previously.
 
 #### Induction
 
-Suppose that the theorem holds up to \\(n=k\\) (this is the induction
-hypothesis), we show that it must also hold
-for \\(n=k+1\\).
+Suppose that the theorem holds up to \\(n-1\\) (this is the induction
+hypothesis), we show that it must also hold for \\(n\\).
 
 Fix \\(i \\in [n]\\), the system of equations
 
@@ -363,7 +366,7 @@ Fix \\(i \\in [n]\\), the system of equations
 \\end{array}\\right.
 \\]
 
-implies for all \\(y\_2,y\_3,\\ldots,y\_n \\in \\mathbb{R}\\) that
+implies for all \\(y\_1,y\_2,\\ldots,y\_n \\in \\mathbb{R}\\) that
 
 \\[
 \\begin{array}{crccccccccccclccc}
@@ -374,6 +377,9 @@ implies for all \\(y\_2,y\_3,\\ldots,y\_n \\in \\mathbb{R}\\) that
 +&(&\\alpha\_{1,n} y\_1 &+& \\alpha\_{2,n} y\_2 &+& \\alpha\_{3,n} y\_3 &+& \\cdots &+& \\alpha\_{n,n} y\_n &)&x\_n&=& 0.\\\\
 \\end{array}
 \\]
+
+Note that we can fix one of the \\(y\_j\\) to some arbitrary constant while the
+equation remains valid.
 
 In order to determine \\(x\_i\\) it suffices to make
 the \\(x\_k \\neq x\_i\\) disappear. Let us choose \\(\\ell \\in [n]\\) such that
@@ -387,10 +393,10 @@ the \\(x\_k \\neq x\_i\\) disappear. Let us choose \\(\\ell \\in [n]\\) such tha
 \\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{\\ell-1,i+1} & \\alpha\_{\\ell+1,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots          & \\vdots            & \\ddots & \\vdots\\\\
 \\alpha\_{1,n}   & \\alpha\_{2,n}   & \\cdots & \\alpha\_{\\ell-1,n} & \\alpha\_{\\ell+1,n}   & \\cdots & \\alpha\_{n,n}\\\\
-\\end{vmatrix} \\neq 0,
+\\end{vmatrix} \\neq 0.
 \\]
 
-such a \\(\\ell\\) always exists as otherwise
+Such a \\(\\ell\\) always exists as otherwise
 
 \\[
 \\begin{vmatrix}
@@ -401,18 +407,18 @@ such a \\(\\ell\\) always exists as otherwise
 \\end{vmatrix} = 0.
 \\]
 
-Without loss of generality we can assume that \\(\\ell=1\\). However, for the sake
-of clarity, we will introduce a new notation.
+Without loss of generality we could assume that \\(\\ell=1\\). However, for the sake
+of explanation, we will introduce a new notation to handle all cases directly.
 
-We let \\(\\beta\_{i,j} = \\alpha\_{i,j}\\) for all \\(i \\in [n]\\) and all
-\\(j \\in \\{\\,0,2,\\ldots,\\ell-1,\\ell+1,\ldots,n\\,\\}\\). We let \\(\\beta\_{i,1} =
-\\alpha\_{i,\\ell}\\) and \\(\\beta\_{i,\\ell} = \\alpha\_{i,1}\\) for all \\(i \\in [n]\\).
+We let \\(\\beta\_{a,b} = \\alpha\_{a,b}\\) for all \\(a \\in \\{\\,2,\\ldots,\\ell-1,\\ell+1,\ldots,n\\,\\}\\) and all
+\\(b \\in \\{\\,0,1,\\ldots,n\\,\\}\\). We let \\(\\beta\_{1,b} =
+\\alpha\_{\\ell,b}\\) and \\(\\beta\_{\\ell,b} = \\alpha\_{1,b}\\) for all \\(b \\in \\{\\,0,1,\\ldots,n\\,\\}\\).
 For all
-\\(j \\in \\{\\,0,2,\\ldots,\\ell-1,\\ell+1,\ldots,n\\,\\}\\) we let \\(z\_j =
-y\_j). We let \\(z\_1 = y\_\\ell\\) and \\(z\_\\ell = y\_1\\).
+\\(a \\in \\{\\,0,2,\\ldots,\\ell-1,\\ell+1,\ldots,n\\,\\}\\) we let \\(z\_a =
+y\_a\\). We let \\(z\_1 = y\_\\ell\\) and \\(z\_\\ell = y\_1\\).
 
-If we fix \\(z\_1 = 1\\) we obtain the following
-system of \\(n-1\\) linear equations in \\(n-1\\) unknowns
+If we fix \\(z\_1 = 1\\), our equation remains valid and we obtain the
+following system of \\(n-1\\) linear equations in \\(n-1\\) unknowns
 
 \\[
 \\left\\lbrace\\begin{array}{cccccccccccc}
@@ -423,35 +429,63 @@ system of \\(n-1\\) linear equations in \\(n-1\\) unknowns
 \\beta\_{1,i+1} &+& \\beta\_{2,i+1} z\_2 &+& \\beta\_{3,i+1} z\_3 &+& \\cdots &+& \\beta\_{n,i+1} z\_n &=& 0\\\\
 \\vdots &+& \\vdots &+& \\vdots &+& \\ddots &+& \\vdots &=& \\vdots\\\\
 \\beta\_{1,n} &+& \\beta\_{2,n} z\_2 &+& \\beta\_{3,n} z\_3 &+& \\cdots &+& \\beta\_{n,n} z\_n &=& 0\\\\
-\\end{array}\\right.
+\\end{array}\\right..
 \\]
 
-which, by the induction hypothesis, if 
-has a unique solution \\(y=(y\_2,y\_3,\\ldots,y\_n)\\) such that for all \\(j
+By our choice of \\(\\ell\\) we have that
+
+\\[
+\\begin{vmatrix}
+\\beta\_{\\ell,1}   & \\beta\_{2,1}   & \\cdots & \\beta\_{\\ell-1,1}   & \\beta\_{\\ell+1,1}   & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{\\ell,2}   & \\beta\_{2,2}   & \\cdots & \\beta\_{\\ell-1,2}   & \\beta\_{\\ell+1,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots             & \\vdots         & \\ddots & \\vdots               & \\vdots               & \\ddots & \\vdots\\\\
+\\beta\_{\\ell,i-1} & \\beta\_{2,i-1} & \\cdots & \\beta\_{\\ell-1,i-1} & \\beta\_{\\ell+1,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{\\ell,i+1} & \\beta\_{2,i+1} & \\cdots & \\beta\_{\\ell-1,i+1} & \\beta\_{\\ell+1,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots             & \\vdots         & \\ddots & \\vdots               & \\vdots               & \\ddots & \\vdots\\\\
+\\beta\_{\\ell,n}   & \\beta\_{2,n}   & \\cdots & \\beta\_{\\ell-1,n}   & \\beta\_{\\ell+1,n}   & \\cdots & \\beta\_{n,n}\\\\
+\\end{vmatrix} \\neq 0,
+\\]
+
+hence, by moving the first column to the right place,
+
+\\[
+\\begin{vmatrix}
+\\beta\_{2,1}   & \\beta\_{3,1}   & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots          & \\vdots          & \\ddots & \\vdots\\\\
+\\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots          & \\vdots          & \\ddots & \\vdots\\\\
+\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
+\\end{vmatrix} \\neq 0.
+\\]
+
+Thus, by the induction hypothesis, our last system of equations
+has a unique solution \\(z=(z\_2,z\_3,\\ldots,z\_n)\\) such that for all \\(j
 \\in [2,n]\\)
 
 \\[
-y\_j = (-1)^{j+1}
+z\_j = (-1)^{j+1}
 \frac{
 \\begin{vmatrix}
-\\alpha\_{1,1}   & \\alpha\_{2,1}   & \\alpha\_{3,1}   & \\cdots & \\alpha\_{j-1,1} & \\alpha\_{j+1,1}  & \\cdots & \\alpha\_{n,1}\\\\
-\\alpha\_{1,2}   & \\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{j-1,2} & \\alpha\_{j+1,2}  & \\cdots & \\alpha\_{n,2}\\\\
+\\beta\_{1,1}   & \\beta\_{2,1}   & \\beta\_{3,1}   & \\cdots & \\beta\_{j-1,1} & \\beta\_{j+1,1}  & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{1,2}   & \\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{j-1,2} & \\beta\_{j+1,2}  & \\cdots & \\beta\_{n,2}\\\\
 \\vdots          & \\vdots          & \\vdots          & \\ddots & \\vdots & \\vdots  & \\ddots & \\vdots\\\\
-\\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{j-1,i-1} & \\alpha\_{j+1,i-1}  & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{j-1,i+1} & \\alpha\_{j+1,i+1}  & \\cdots & \\alpha\_{n,i+1}\\\\
+\\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{j-1,i-1} & \\beta\_{j+1,i-1}  & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{j-1,i+1} & \\beta\_{j+1,i+1}  & \\cdots & \\beta\_{n,i+1}\\\\
 \\vdots          & \\vdots          & \\vdots          & \\ddots & \\vdots & \\vdots  & \\ddots & \\vdots\\\\
-\\alpha\_{1,n}   & \\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{j-1,n} & \\alpha\_{j+1,n}  & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{j-1,n} & \\beta\_{j+1,n}  & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 }
 {
 \\begin{vmatrix}
-\\alpha\_{2,1}   & \\alpha\_{3,1}   & \\cdots & \\alpha\_{n,1}\\\\
-\\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{n,2}\\\\
+\\beta\_{2,1}   & \\beta\_{3,1}   & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
+\\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 }.
 \\]
@@ -461,8 +495,8 @@ Now that the \\(x\_k \\neq x\_i\\) disappeared, we have
 
 \\[
 \\begin{array}{crccccccccccclccc}
- &(&\\alpha\_{1,0} &+& \\alpha\_{2,0} y\_2 &+& \\alpha\_{3,0} y\_3 &+& \\cdots &+& \\alpha\_{n,0} y\_n &)&&&\\\\
-+&(&\\alpha\_{1,i} &+& \\alpha\_{2,i} y\_2 &+& \\alpha\_{3,i} y\_3 &+& \\cdots &+& \\alpha\_{n,i} y\_n &)&x\_i&=& 0,\\\\
+&(&\\beta\_{1,0} &+& \\beta\_{2,0} z\_2 &+& \\beta\_{3,0} z\_3 &+& \\cdots &+& \\beta\_{n,0} z\_n &)&&&\\\\
++&(&\\beta\_{1,i} &+& \\beta\_{2,i} z\_2 &+& \\beta\_{3,i} z\_3 &+& \\cdots &+& \\beta\_{n,i} z\_n &)&x\_i&=& 0,\\\\
 \\end{array}
 \\]
 
@@ -470,37 +504,37 @@ hence,
 
 \\[
 x\_i = -\frac{
-\\alpha\_{1,0} + \\alpha\_{2,0} y\_2 + \\alpha\_{3,0} y\_3 + \\cdots + \\alpha\_{n,0} y\_n
+\\beta\_{1,0} + \\beta\_{2,0} z\_2 + \\beta\_{3,0} z\_3 + \\cdots + \\beta\_{n,0} z\_n
 }
 {
-\\alpha\_{1,i} + \\alpha\_{2,i} y\_2 + \\alpha\_{3,i} y\_3 + \\cdots + \\alpha\_{n,i} y\_n
+\\beta\_{1,i} + \\beta\_{2,i} z\_2 + \\beta\_{3,i} z\_3 + \\cdots + \\beta\_{n,i} z\_n
 },
 \\]
 
-that is, by replacing the \\(y\_j\\) by their respective values,
+that is, by replacing the \\(z\_j\\) by their respective values,
 
 \\[
 x\_i = -\frac{
 \\begin{vmatrix}
-\\alpha\_{1,0} & \\alpha\_{2,0}   & \\alpha\_{3,0}   & \\cdots & \\alpha\_{n,0}\\\\
-\\alpha\_{1,1} & \\alpha\_{2,1}   & \\alpha\_{3,1}   & \\cdots & \\alpha\_{n,1}\\\\
-\\alpha\_{1,2} & \\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{n,2}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,n} & \\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{1,0}   & \\beta\_{2,0}   & \\beta\_{3,0}   & \\cdots & \\beta\_{n,0}\\\\
+\\beta\_{1,1}   & \\beta\_{2,1}   & \\beta\_{3,1}   & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{1,2}   & \\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 }
 {
 \\begin{vmatrix}
-\\alpha\_{1,i} & \\alpha\_{2,i}   & \\alpha\_{3,i}   & \\cdots & \\alpha\_{n,i}\\\\
-\\alpha\_{1,2} & \\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{n,2}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,n} & \\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{1,i}   & \\beta\_{2,i}   & \\beta\_{3,i}   & \\cdots & \\beta\_{n,i}\\\\
+\\beta\_{1,2}   & \\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 },
 \\]
@@ -510,26 +544,26 @@ which we can rearrange by swapping rows of the second determinant to get
 \\[
 x\_i = -\frac{
 \\begin{vmatrix}
-\\alpha\_{1,0} & \\alpha\_{2,0}   & \\alpha\_{3,0}   & \\cdots & \\alpha\_{n,0}\\\\
-\\alpha\_{1,1} & \\alpha\_{2,1}   & \\alpha\_{3,1}   & \\cdots & \\alpha\_{n,1}\\\\
-\\alpha\_{1,2} & \\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{n,2}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,n} & \\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{1,0}   & \\beta\_{2,0}   & \\beta\_{3,0}   & \\cdots & \\beta\_{n,0}\\\\
+\\beta\_{1,1}   & \\beta\_{2,1}   & \\beta\_{3,1}   & \\cdots & \\beta\_{n,1}\\\\
+\\beta\_{1,2}   & \\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 }
 {
 (-1)^{i-1}
 \\begin{vmatrix}
-\\alpha\_{1,2} & \\alpha\_{2,2}   & \\alpha\_{3,2}   & \\cdots & \\alpha\_{n,2}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\alpha\_{3,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\
-\\alpha\_{1,i} & \\alpha\_{2,i}   & \\alpha\_{3,i}   & \\cdots & \\alpha\_{n,i}\\\\
-\\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\alpha\_{3,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\
-\\vdots        & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{1,n} & \\alpha\_{2,n}   & \\alpha\_{3,n}   & \\cdots & \\alpha\_{n,n}\\\\
+\\beta\_{1,2}   & \\beta\_{2,2}   & \\beta\_{3,2}   & \\cdots & \\beta\_{n,2}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\
+\\beta\_{1,i}   & \\beta\_{2,i}   & \\beta\_{3,i}   & \\cdots & \\beta\_{n,i}\\\\
+\\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\
+\\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\
 \\end{vmatrix}
 },
 \\]
@@ -540,18 +574,44 @@ that is, by the fact that \\(\\mathop{det}(M) = \\mathop{det}(M^T)\\),
 x\_i = (-1)^i
 \frac{
 \\begin{vmatrix}
+\\beta\_{1,0} & \\beta\_{1,1} & \\beta\_{1,2} & \\cdots & \\beta\_{1,i-1} & \\beta\_{1,i+1} & \\cdots & \\beta\_{1,n}\\\\
+\\beta\_{2,0} & \\beta\_{2,1} & \\beta\_{2,2} & \\cdots & \\beta\_{2,i-1} & \\beta\_{2,i+1} & \\cdots & \\beta\_{2,n}\\\\
+\\vdots       & \\vdots       & \\vdots       & \\ddots & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{n,0} & \\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}\\\\
+\\end{vmatrix}
+}
+{
+\\begin{vmatrix}
+\\beta\_{1,1} & \\beta\_{1,2} & \\cdots & \\beta\_{1,i-1} & \\beta\_{1,i} & \\beta\_{1,i+1} & \\cdots & \\beta\_{1,n}\\\\
+\\beta\_{2,1} & \\beta\_{2,2} & \\cdots & \\beta\_{2,i-1} & \\beta\_{2,i} & \\beta\_{2,i+1} & \\cdots & \\beta\_{2,n}\\\\
+\\vdots       & \\vdots       & \\ddots & \\vdots         & \\vdots       & \\vdots         & \\ddots & \\vdots\\\\
+\\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}\\\\
+\\end{vmatrix}
+}.
+\\]
+
+It remains to trade \\(\\beta\\) for \\(\\alpha\\) according to the bijection
+we defined earlier, then swap the first column with the \\(\\ell^{\\text{th}}\\) one.
+
+Swaping the columns multiplies both determinants by \\(-1\\), hence the sign of
+the ratio remains unchanged. We get
+
+\\[
+x\_i = (-1)^i
+\frac{
+\\begin{vmatrix}
 \\alpha\_{1,0} & \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,i-1} & \\alpha\_{1,i+1} & \\cdots & \\alpha\_{1,n}\\\\
 \\alpha\_{2,0} & \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,i-1} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{2,n}\\\\
-\\vdots        & \\vdots        & \\vdots        & \\ddots & \\vdots          & \\vdots          & \\ddots & \\vdots\\\\
+\\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots & \\ddots & \\vdots\\\\
 \\alpha\_{n,0} & \\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}\\\\
 \\end{vmatrix}
 }
 {
 \\begin{vmatrix}
-\\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,i-1} & \\alpha\_{1,i} & \\alpha\_{1,i+1} & \\cdots & \\alpha\_{1,n}\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,i-1} & \\alpha\_{2,i} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{2,n}\\\\
-\\vdots        & \\vdots        & \\ddots & \\vdots          & \\vdots        & \\vdots          & \\ddots & \\vdots\\\\
-\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}\\\\
+\\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,n}\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,n}\\\\
+\\vdots & \\vdots & \\ddots & \\vdots\\\\
+\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}\\\\
 \\end{vmatrix}
 }
 \\]
