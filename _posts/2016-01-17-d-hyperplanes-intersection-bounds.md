@@ -591,9 +591,11 @@ x\_i = (-1)^i
 \\]
 
 It remains to trade \\(\\beta\\) for \\(\\alpha\\) according to the bijection
-we defined earlier, then swap the first column with the \\(\\ell^{\\text{th}}\\) one.
+we defined earlier, then swap the first column with the \\(\\ell^{\\text{th}}\\)
+one if necessary.
 
-Swaping the columns multiplies both determinants by \\(-1\\), hence the sign of
+If \\(\\ell = 1\\), we have nothing to do. Otherwise swaping the columns
+multiplies both determinants by \\(-1\\), hence the sign of
 the ratio remains unchanged. We get
 
 \\[
