@@ -8,7 +8,7 @@ Emerald is a minimal theme created for Jekyll. The main purpose of Emerald is to
 ```sh
 gem i jekyll
 gem i jekyll-paginate
-gem i redcarpet
+gem i kramdown
 ```
 
 Emerald may be installed by simply downloading the .zip folder from the [repository on Github](https://github.com/KingFelix/emerald/archive/master.zip).
