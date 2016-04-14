@@ -12,7 +12,7 @@ called an \\(\\varepsilon\\)-net for \\((X,\\mathcal{F})\\) with respect to
 
 ## Definition 2 (Trace of \\(\\mathcal{F}\\) on \\(Y\\))
 Let \\(\\mathcal{F}\\) be a set system on \\(X\\) and let \\(Y \\subseteq X\\). We define the
-restriction of \\(\\mathcal{F}\\) on \\(Y\\) (also called the \\emph{trace} of
+restriction of \\(\\mathcal{F}\\) on \\(Y\\) (also called the *trace* of
 \\(\\mathcal{F}\\) on
 \\(Y\\)) as
 \\[
