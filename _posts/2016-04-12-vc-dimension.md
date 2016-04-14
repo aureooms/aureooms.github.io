@@ -16,7 +16,7 @@ restriction of \\(\\mathcal{F}\\) on \\(Y\\) (also called the *trace* of
 \\(\\mathcal{F}\\) on
 \\(Y\\)) as
 \\[
-\\mathcal{F}|_Y = \\{S \\cap Y \\colon\\, S \\in \\mathcal{F}\\}.
+\\mathcal{F}|\_Y = \\{S \\cap Y \\colon\\, S \\in \\mathcal{F}\\}.
 \\]
 
 
@@ -24,8 +24,8 @@ restriction of \\(\\mathcal{F}\\) on \\(Y\\) (also called the *trace* of
 Let \\(\\mathcal{F}\\) be a set system on a set \\(X\\). Let us say that a subset \\(A
 \\subseteq X\\) is shttered by \\(\\mathcal{F}\\) if each of the subsets of \\(A\\) can
 be obtained as the intersection of some \\(S \\in \\mathcal{F}\\) with \\(A\\), i.e.,
-if \\(\\mathcal{F}|_A = 2^{A}\\). We define the VC-dimension of
-			\\(\\mathcal{F}\\), denoted
+if \\(\\mathcal{F}|\_A = 2^{A}\\). We define the VC-dimension of
+\\(\\mathcal{F}\\), denoted
 by \\(dim(F)\\), as the supremum of the sizes of all finite shattered
 subsets of \\(X\\). If arbitrarily large subsets can be shattered, the
 VC-dimension is \\(\\infty\\).
@@ -42,35 +42,35 @@ is an absolute constant.
 ## Definition 4 (Shatter function)
 We define the shatter function of a set system \\(\\mathcal{F}\\) by
 \\[
-\\pi_\\mathcal{F}(m) = \\max_{Y\\subseteq X, \\lvert Y \\rvert = m} \\lvert \\mathcal{F}|_Y
+\\pi\_\\mathcal{F}(m) = \\max\_{Y\\subseteq X, \\lvert Y \\rvert = m} \\lvert \\mathcal{F}|\_Y
 \\rvert.
 \\]
 
 
 ## Lemma 1 (Shatter function lemma)
 For any set system \\(\\mathcal{F}\\) of VC-dimension at most \\(d\\), we have
-\\(\\pi_\\mathcal{F}(m)
-\\le \\Phi_d(m)\\) for all \\(m\\), where \\(\\Phi_d(m) = \\binom{m}{0} +
+\\(\\pi\_\\mathcal{F}(m)
+\\le \\Phi\_d(m)\\) for all \\(m\\), where \\(\\Phi\_d(m) = \\binom{m}{0} +
 \\binom{m}{1} + \\cdots + \\binom{m}{d}\\).
 
 ## Proposition 1
-Let \\(\\mathbb{R}[x_1,x_2,\\ldots,x_d]_{\\le D}\\) denote the set of all real
+Let \\(\\mathbb{R}[x\_1,x\_2,\\ldots,x\_d]\_{\\le D}\\) denote the set of all real
 polynomials in \\(d\\) variables of degree at most \\(D\\), and let
 \\[
-\\mathcal{P}_{d,D} = \\{\\{x\\in \\mathbb{R}^d \\st p(x) \\ge 0\\}\\st p \\in
-\\mathbb{R}[x_1,x-2,\\ldots,x_d]_{\\le D}\\}.
+\\mathcal{P}\_{d,D} = \\{\\{x\\in \\mathbb{R}^d \\st p(x) \\ge 0\\}\\st p \\in
+\\mathbb{R}[x\_1,x-2,\\ldots,x\_d]\_{\\le D}\\}.
 \\]
-Then \\(dim(\\mathcal{P}_{d,D}) \\le \\binom{d+D}{d}\\).
+Then \\(dim(\\mathcal{P}\_{d,D}) \\le \\binom{d+D}{d}\\).
 
 ## Proposition 2
-Let \\(F(X_1,X_2,\\ldots,X_k)\\) be a fixed set-theoretic expression (using
+Let \\(F(X\_1,X\_2,\\ldots,X\_k)\\) be a fixed set-theoretic expression (using
 the operations of union, intersection, and difference) with variables
-\\(X_1,X_2,\\ldots,X_k\\) standing for sets.
+\\(X\_1,X\_2,\\ldots,X\_k\\) standing for sets.
 Let \\(\\mathcal{S}\\) be a set system on a ground set \\(X\\) with
 \\(dim(\\mathcal{S}) = d <
 \\infty\\). Let
 \\[
-\\mathcal{T} = \\{F(S_1,S_2,\\ldots,S_k) \\st S_1,S_2,\\ldots,S_k \\in
+\\mathcal{T} = \\{F(S\_1,S\_2,\\ldots,S\_k) \\st S\_1,S\_2,\\ldots,S\_k \\in
 \\mathcal{S}\\}.
 \\]
 Then \\(dim(\\mathcal{T}) = O(kd\\ln k)\\).
