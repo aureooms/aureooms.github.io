@@ -57,7 +57,7 @@ For any set system \\(\\mathcal{F}\\) of VC-dimension at most \\(d\\), we have
 Let \\(\\mathbb{R}[x\_1,x\_2,\\ldots,x\_d]\_{\\le D}\\) denote the set of all real
 polynomials in \\(d\\) variables of degree at most \\(D\\), and let
 \\[
-\\mathcal{P}\_{d,D} = \\{\\{x\\in \\mathbb{R}^d \\st p(x) \\ge 0\\}\\st p \\in
+\\mathcal{P}\_{d,D} = \\{\\{x\\in \\mathbb{R}^d \\colon\\, p(x) \\ge 0\\}\\colon\\, p \\in
 \\mathbb{R}[x\_1,x-2,\\ldots,x\_d]\_{\\le D}\\}.
 \\]
 Then \\(dim(\\mathcal{P}\_{d,D}) \\le \\binom{d+D}{d}\\).
@@ -70,7 +70,7 @@ Let \\(\\mathcal{S}\\) be a set system on a ground set \\(X\\) with
 \\(dim(\\mathcal{S}) = d <
 \\infty\\). Let
 \\[
-\\mathcal{T} = \\{F(S\_1,S\_2,\\ldots,S\_k) \\st S\_1,S\_2,\\ldots,S\_k \\in
+\\mathcal{T} = \\{F(S\_1,S\_2,\\ldots,S\_k) \\colon\\, S\_1,S\_2,\\ldots,S\_k \\in
 \\mathcal{S}\\}.
 \\]
 Then \\(dim(\\mathcal{T}) = O(kd\\ln k)\\).
