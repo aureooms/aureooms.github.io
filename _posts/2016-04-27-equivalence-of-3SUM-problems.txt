@@ -17,4 +17,4 @@ if \\(x\_i + x\_j + x\_k = 0 , i < j < k \\), we have three cases:
       i is in A and j, k are in C or
       i is in B and j, k are in C: solve 3SUMx2(A,B), 3SUMx2(A,C), 3SUMx2(B,C)
 
-\\(T(n) = O(n^{2.7}) ??\\)
+\\(T(n) = O(n^{2.7})\\) ??
