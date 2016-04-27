@@ -2,7 +2,7 @@
 title: Equivalence of 3SUM problems
 ---
 
-## 3SUMx1 to 3SUMx3
+## Reducing 3SUMx1 to 3SUMx3
 
 Let \\(T(n)\\) be the complexity of solving 3SUMx1(S) using the following algorithm:
 split the input \\(S = \\{\\,x\_1 , x\_2 , \\ldots , x\_n\\,\\}\\) in three disjoint sets
