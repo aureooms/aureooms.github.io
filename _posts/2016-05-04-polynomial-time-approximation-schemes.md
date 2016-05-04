@@ -3,7 +3,7 @@ title: Polynomial-time approximation schemes
 ---
 
 ## PTAS
-\\((1\\pm\\varepsilon)\\)-approximation with complexity \\(O(n^f(\\varepsilon))\\).
+\\((1\\pm\\varepsilon)\\)-approximation with complexity \\(O(n^{f(\\varepsilon))}\\).
 
 ## EPTAS
 \\((1\\pm\\varepsilon)\\)-approximation with complexity \\(O(f(\\varepsilon) n^c)\\).
