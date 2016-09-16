@@ -12,7 +12,7 @@ baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
 markdown: kramdown
 source: .
 destination: ./_site
-include: [./keybase.txt]
+include: [./keybase.txt,./.ssh/id_rsa.pub]
 permalink: /:title
 paginate: 8
 paginate_path: /page:num/
