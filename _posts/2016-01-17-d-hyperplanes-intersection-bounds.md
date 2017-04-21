@@ -37,7 +37,7 @@ If \\(a \\neq 0\\) then
 If \\(
 \\begin{vmatrix}
 a & b \\\\\\\\
-d & e \\\\\\\\
+d & e
 \\end{vmatrix} \\neq 0 \\)
 then to solve
 
@@ -60,7 +60,7 @@ we can use the following (implied) equations which are true for all
 We can find \\(x\\) by making \\(y\\) disappear. Since \\(
 \\begin{vmatrix}
 a & b \\\\\\\\
-d & e \\\\\\\\
+d & e
 \\end{vmatrix} \\neq 0 \\) we cannot have \\(b\\) and \\(e\\) equal to zero
 simultaneously so either \\(e \\neq 0\\) and
 
@@ -93,12 +93,12 @@ x = -\\frac{ce - bf}{ae-bd}
 = +\\frac{
 \\begin{vmatrix}
 b & c \\\\\\\\
-e & f \\\\\\\\
+e & f
 \\end{vmatrix}
 }{
 \\begin{vmatrix}
 a & b \\\\\\\\
-d & e \\\\\\\\
+d & e
 \\end{vmatrix}
 }.
 \\]
@@ -106,7 +106,7 @@ d & e \\\\\\\\
 Similarily, we can find \\(y\\) by making \\(x\\) disappear. Since \\(
 \\begin{vmatrix}
 a & b \\\\\\\\
-d & e \\\\\\\\
+d & e
 \\end{vmatrix} \\neq 0 \\) we cannot have \\(a\\) and \\(d\\) equal to zero
 simultaneously so either \\(d \\neq 0\\) and
 
@@ -139,12 +139,12 @@ y = -\\frac{cd - af}{bd-ae}
 = -\\frac{
 \\begin{vmatrix}
 a & c \\\\\\\\
-d & f \\\\\\\\
+d & f
 \\end{vmatrix}
 }{
 \\begin{vmatrix}
 a & b \\\\\\\\
-d & e \\\\\\\\
+d & e
 \\end{vmatrix}
 }.
 \\]
@@ -166,14 +166,14 @@ If \\(\\alpha\_{1,1} \\neq 0\\) then
 If \\(
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2}
 \\end{vmatrix} \\neq 0 \\)
 then to solve
 
 \\[
 \\left\\lbrace\\begin{align}
 \\alpha\_{1,0} + \\alpha\_{1,1} x\_1 + \\alpha\_{1,2} x\_2 &= 0\\\\\\\\
-\\alpha\_{2,0} + \\alpha\_{2,1} x\_1 + \\alpha\_{2,2} x\_2 &= 0\\\\\\\\
+\\alpha\_{2,0} + \\alpha\_{2,1} x\_1 + \\alpha\_{2,2} x\_2 &= 0
 \\end{align}\\right.,
 \\]
 
@@ -193,7 +193,7 @@ we can use the following (implied) equations which are true for all
 We can find \\(x\_1\\) by making \\(x\_2\\) disappear. Since \\(
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2}
 \\end{vmatrix} \\neq 0 \\) we cannot have \\(\\alpha\_{1,2}\\) and \\(\\alpha\_{2,2}\\) equal to zero
 simultaneously so either \\(\\alpha\_{2,2} \\neq 0\\) and
 
@@ -205,7 +205,7 @@ y\_2 = -\\frac{\\alpha\_{1,2}}{\\alpha\_{2,2}} \\implies
 & = 0\\\\\\\\
 (\\alpha\_{1,0}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,0}) +
 (\\alpha\_{1,1}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,1}) x\_1 +
-(\\alpha\_{1,2}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,2}) x\_2 & = 0\\\\\\\\
+(\\alpha\_{1,2}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,2}) x\_2 & = 0
 \\end{align}
 
 or \\(\\alpha\_{1,2} \\neq 0\\) and
@@ -218,7 +218,7 @@ y\_1 = -\\frac{\\alpha\_{2,2}}{\\alpha\_{1,2}} \\implies
 & = 0\\\\\\\\
 (\\alpha\_{1,0}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,0}) +
 (\\alpha\_{1,1}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,1}) x\_1 +
-(\\alpha\_{1,2}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,2}) x\_2 & = 0\\\\\\\\
+(\\alpha\_{1,2}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,2}) x\_2 & = 0
 \\end{align}
 
 hence, in either case
@@ -229,12 +229,12 @@ x\_1 = -\\frac{\\alpha\_{1,0}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,0}}
 = -\\frac{
 \\begin{vmatrix}
 \\alpha\_{1,0} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,0} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,0} & \\alpha\_{2,2}
 \\end{vmatrix}
 }{
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2}
 \\end{vmatrix}
 }.
 \\]
@@ -242,7 +242,7 @@ x\_1 = -\\frac{\\alpha\_{1,0}\\alpha\_{2,2} - \\alpha\_{1,2}\\alpha\_{2,0}}
 Similarily, we can find \\(x\_2\\) by making \\(x\_1\\) disappear. Since \\(
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2}
 \\end{vmatrix} \\neq 0 \\) we cannot have \\(\\alpha\_{1,1}\\) and \\(\\alpha\_{2,1}\\) equal to zero
 simultaneously so either \\(\\alpha\_{2,1} \\neq 0\\) and
 
@@ -254,7 +254,7 @@ y\_2 = -\\frac{\\alpha\_{1,1}}{\\alpha\_{2,1}} \\implies
 & = 0\\\\\\\\
 (\\alpha\_{1,0}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,0}) +
 (\\alpha\_{1,1}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,1}) x\_1 +
-(\\alpha\_{1,2}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,2}) x\_2 & = 0\\\\\\\\
+(\\alpha\_{1,2}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,2}) x\_2 & = 0
 \\end{align}
 
 or \\(\\alpha\_{1,1} \\neq 0\\) and
@@ -267,7 +267,7 @@ y\_1 = -\\frac{\\alpha\_{2,1}}{\\alpha\_{1,1}} \\implies
 & = 0\\\\\\\\
 (\\alpha\_{1,0}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,0}) +
 (\\alpha\_{1,1}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,1}) x\_1 +
-(\\alpha\_{1,2}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,2}) x\_2 & = 0\\\\\\\\
+(\\alpha\_{1,2}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,2}) x\_2 & = 0
 \\end{align}
 
 hence, in either case
@@ -278,12 +278,12 @@ x\_2 = -\\frac{\\alpha\_{1,0}\\alpha\_{2,1} - \\alpha\_{1,1}\\alpha\_{2,0}}
 = +\\frac{
 \\begin{vmatrix}
 \\alpha\_{1,0} & \\alpha\_{1,1} \\\\\\\\
-\\alpha\_{2,0} & \\alpha\_{2,1} \\\\\\\\
+\\alpha\_{2,0} & \\alpha\_{2,1}
 \\end{vmatrix}
 }{
 \\begin{vmatrix}
 \\alpha\_{1,1} & \\alpha\_{1,2} \\\\\\\\
-\\alpha\_{2,1} & \\alpha\_{2,2} \\\\\\\\
+\\alpha\_{2,1} & \\alpha\_{2,2}
 \\end{vmatrix}
 }.
 \\]
@@ -299,7 +299,7 @@ For all \\(n > 0 \\in \\mathbb{N}\\), if
 \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix} \\neq 0,
 \\]
 
@@ -312,7 +312,7 @@ then the system of linear equations
 \\alpha\_{1,0} &+& \\alpha\_{1,1} x\_1 &+& \\alpha\_{1,2} x\_2 &+& \\cdots &+& \\alpha\_{1,n} x\_n &=& 0\\\\\\\\
 \\alpha\_{2,0} &+& \\alpha\_{2,1} x\_1 &+& \\alpha\_{2,2} x\_2 &+& \\cdots &+& \\alpha\_{2,n} x\_n &=& 0\\\\\\\\
 \\vdots &+& \\vdots &+& \\vdots &+& \\ddots &+& \\vdots &=& \\vdots\\\\\\\\
-\\alpha\_{n,0} &+& \\alpha\_{n,1} x\_1 &+& \\alpha\_{n,2} x\_2 &+& \\cdots &+& \\alpha\_{n,n} x\_n &=& 0\\\\\\\\
+\\alpha\_{n,0} &+& \\alpha\_{n,1} x\_1 &+& \\alpha\_{n,2} x\_2 &+& \\cdots &+& \\alpha\_{n,n} x\_n &=& 0
 \\end{array}\\right.
 \\]
 
@@ -326,7 +326,7 @@ x\_i = (-1)^i
 \\alpha\_{1,0} & \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,i-1} & \\alpha\_{1,i+1} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,0} & \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,i-1} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,0} & \\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,0} & \\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -334,7 +334,7 @@ x\_i = (-1)^i
 \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix}
 }
 \\]
@@ -362,7 +362,7 @@ Fix \\(i \\in [n]\\), the system of equations
 \\alpha\_{1,0} &+& \\alpha\_{1,1} x\_1 &+& \\alpha\_{1,2} x\_2 &+& \\cdots &+& \\alpha\_{1,n} x\_n &=& 0\\\\\\\\
 \\alpha\_{2,0} &+& \\alpha\_{2,1} x\_1 &+& \\alpha\_{2,2} x\_2 &+& \\cdots &+& \\alpha\_{2,n} x\_n &=& 0\\\\\\\\
 \\vdots &+& \\vdots &+& \\vdots &+& \\ddots &+& \\vdots &=& \\vdots\\\\\\\\
-\\alpha\_{n,0} &+& \\alpha\_{n,1} x\_1 &+& \\alpha\_{n,2} x\_2 &+& \\cdots &+& \\alpha\_{n,n} x\_n &=& 0\\\\\\\\
+\\alpha\_{n,0} &+& \\alpha\_{n,1} x\_1 &+& \\alpha\_{n,2} x\_2 &+& \\cdots &+& \\alpha\_{n,n} x\_n &=& 0
 \\end{array}\\right.
 \\]
 
@@ -374,7 +374,7 @@ implies for all \\(y\_1,y\_2,\\ldots,y\_n \\in \\mathbb{R}\\) that
 +&(&\\alpha\_{1,1} y\_1 &+& \\alpha\_{2,1} y\_2 &+& \\alpha\_{3,1} y\_3 &+& \\cdots &+& \\alpha\_{n,1} y\_n &)&x\_1&&\\\\\\\\
 +&(&\\alpha\_{1,2} y\_1 &+& \\alpha\_{2,2} y\_2 &+& \\alpha\_{3,2} y\_3 &+& \\cdots &+& \\alpha\_{n,2} y\_n &)&x\_2&&\\\\\\\\
 +&(&\\vdots             &+& \\vdots             &+& \\vdots             &+& \\ddots &+& \\vdots             &)&\\vdots&&\\\\\\\\
-+&(&\\alpha\_{1,n} y\_1 &+& \\alpha\_{2,n} y\_2 &+& \\alpha\_{3,n} y\_3 &+& \\cdots &+& \\alpha\_{n,n} y\_n &)&x\_n&=& 0.\\\\\\\\
++&(&\\alpha\_{1,n} y\_1 &+& \\alpha\_{2,n} y\_2 &+& \\alpha\_{3,n} y\_3 &+& \\cdots &+& \\alpha\_{n,n} y\_n &)&x\_n&=& 0.
 \\end{array}
 \\]
 
@@ -392,7 +392,7 @@ the \\(x\_k \\neq x\_i\\) disappear. Let us choose \\(\\ell \\in [n]\\) such tha
 \\alpha\_{1,i-1} & \\alpha\_{2,i-1} & \\cdots & \\alpha\_{\\ell-1,i-1} & \\alpha\_{\\ell+1,i-1} & \\cdots & \\alpha\_{n,i-1}\\\\\\\\
 \\alpha\_{1,i+1} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{\\ell-1,i+1} & \\alpha\_{\\ell+1,i+1} & \\cdots & \\alpha\_{n,i+1}\\\\\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots          & \\vdots            & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{1,n}   & \\alpha\_{2,n}   & \\cdots & \\alpha\_{\\ell-1,n} & \\alpha\_{\\ell+1,n}   & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{1,n}   & \\alpha\_{2,n}   & \\cdots & \\alpha\_{\\ell-1,n} & \\alpha\_{\\ell+1,n}   & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix} \\neq 0.
 \\]
 
@@ -403,7 +403,7 @@ Such a \\(\\ell\\) always exists as otherwise
 \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix} = 0.
 \\]
 
@@ -428,7 +428,7 @@ following system of \\(n-1\\) linear equations in \\(n-1\\) unknowns
 \\beta\_{1,i-1} &+& \\beta\_{2,i-1} z\_2 &+& \\beta\_{3,i-1} z\_3 &+& \\cdots &+& \\beta\_{n,i-1} z\_n &=& 0\\\\\\\\
 \\beta\_{1,i+1} &+& \\beta\_{2,i+1} z\_2 &+& \\beta\_{3,i+1} z\_3 &+& \\cdots &+& \\beta\_{n,i+1} z\_n &=& 0\\\\\\\\
 \\vdots &+& \\vdots &+& \\vdots &+& \\ddots &+& \\vdots &=& \\vdots\\\\\\\\
-\\beta\_{1,n} &+& \\beta\_{2,n} z\_2 &+& \\beta\_{3,n} z\_3 &+& \\cdots &+& \\beta\_{n,n} z\_n &=& 0\\\\\\\\
+\\beta\_{1,n} &+& \\beta\_{2,n} z\_2 &+& \\beta\_{3,n} z\_3 &+& \\cdots &+& \\beta\_{n,n} z\_n &=& 0
 \\end{array}\\right..
 \\]
 
@@ -442,7 +442,7 @@ By our choice of \\(\\ell\\) we have that
 \\beta\_{\\ell,i-1} & \\beta\_{2,i-1} & \\cdots & \\beta\_{\\ell-1,i-1} & \\beta\_{\\ell+1,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{\\ell,i+1} & \\beta\_{2,i+1} & \\cdots & \\beta\_{\\ell-1,i+1} & \\beta\_{\\ell+1,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots             & \\vdots         & \\ddots & \\vdots               & \\vdots               & \\ddots & \\vdots\\\\\\\\
-\\beta\_{\\ell,n}   & \\beta\_{2,n}   & \\cdots & \\beta\_{\\ell-1,n}   & \\beta\_{\\ell+1,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{\\ell,n}   & \\beta\_{2,n}   & \\cdots & \\beta\_{\\ell-1,n}   & \\beta\_{\\ell+1,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix} \\neq 0,
 \\]
 
@@ -456,7 +456,7 @@ hence, by moving the first column to the right place,
 \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots\\\\\\\\
-\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix} \\neq 0.
 \\]
 
@@ -474,7 +474,7 @@ z\_j = (-1)^{j+1}
 \\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{j-1,i-1} & \\beta\_{j+1,i-1}  & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{j-1,i+1} & \\beta\_{j+1,i+1}  & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots          & \\vdots          & \\vdots          & \\ddots & \\vdots & \\vdots  & \\ddots & \\vdots\\\\\\\\
-\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{j-1,n} & \\beta\_{j+1,n}  & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{j-1,n} & \\beta\_{j+1,n}  & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -485,7 +485,7 @@ z\_j = (-1)^{j+1}
 \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots          & \\vdots          & \\ddots & \\vdots\\\\\\\\
-\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }.
 \\]
@@ -496,7 +496,7 @@ Now that the \\(x\_k \\neq x\_i\\) disappeared, we have
 \\[
 \\begin{array}{crccccccccccclccc}
 &(&\\beta\_{1,0} &+& \\beta\_{2,0} z\_2 &+& \\beta\_{3,0} z\_3 &+& \\cdots &+& \\beta\_{n,0} z\_n &)&&&\\\\\\\\
-+&(&\\beta\_{1,i} &+& \\beta\_{2,i} z\_2 &+& \\beta\_{3,i} z\_3 &+& \\cdots &+& \\beta\_{n,i} z\_n &)&x\_i&=& 0,\\\\\\\\
++&(&\\beta\_{1,i} &+& \\beta\_{2,i} z\_2 &+& \\beta\_{3,i} z\_3 &+& \\cdots &+& \\beta\_{n,i} z\_n &)&x\_i&=& 0,
 \\end{array}
 \\]
 
@@ -523,7 +523,7 @@ x\_i = -\frac{
 \\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -534,7 +534,7 @@ x\_i = -\frac{
 \\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 },
 \\]
@@ -551,7 +551,7 @@ x\_i = -\frac{
 \\beta\_{1,i-1} & \\beta\_{2,i-1} & \\beta\_{3,i-1} & \\cdots & \\beta\_{n,i-1}\\\\\\\\
 \\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -563,7 +563,7 @@ x\_i = -\frac{
 \\beta\_{1,i}   & \\beta\_{2,i}   & \\beta\_{3,i}   & \\cdots & \\beta\_{n,i}\\\\\\\\
 \\beta\_{1,i+1} & \\beta\_{2,i+1} & \\beta\_{3,i+1} & \\cdots & \\beta\_{n,i+1}\\\\\\\\
 \\vdots         & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{1,n}   & \\beta\_{2,n}   & \\beta\_{3,n}   & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 },
 \\]
@@ -577,7 +577,7 @@ x\_i = (-1)^i
 \\beta\_{1,0} & \\beta\_{1,1} & \\beta\_{1,2} & \\cdots & \\beta\_{1,i-1} & \\beta\_{1,i+1} & \\cdots & \\beta\_{1,n}\\\\\\\\
 \\beta\_{2,0} & \\beta\_{2,1} & \\beta\_{2,2} & \\cdots & \\beta\_{2,i-1} & \\beta\_{2,i+1} & \\cdots & \\beta\_{2,n}\\\\\\\\
 \\vdots       & \\vdots       & \\vdots       & \\ddots & \\vdots         & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{n,0} & \\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{n,0} & \\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -585,7 +585,7 @@ x\_i = (-1)^i
 \\beta\_{1,1} & \\beta\_{1,2} & \\cdots & \\beta\_{1,i-1} & \\beta\_{1,i} & \\beta\_{1,i+1} & \\cdots & \\beta\_{1,n}\\\\\\\\
 \\beta\_{2,1} & \\beta\_{2,2} & \\cdots & \\beta\_{2,i-1} & \\beta\_{2,i} & \\beta\_{2,i+1} & \\cdots & \\beta\_{2,n}\\\\\\\\
 \\vdots       & \\vdots       & \\ddots & \\vdots         & \\vdots       & \\vdots         & \\ddots & \\vdots\\\\\\\\
-\\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}\\\\\\\\
+\\beta\_{n,1} & \\beta\_{n,2} & \\cdots & \\beta\_{n,i-1} & \\beta\_{n,i} & \\beta\_{n,i+1} & \\cdots & \\beta\_{n,n}
 \\end{vmatrix}
 }.
 \\]
@@ -605,7 +605,7 @@ x\_i = (-1)^i
 \\alpha\_{1,0} & \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,i-1} & \\alpha\_{1,i+1} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,0} & \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,i-1} & \\alpha\_{2,i+1} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,0} & \\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,0} & \\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,i-1} & \\alpha\_{n,i+1} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix}
 }
 {
@@ -613,7 +613,7 @@ x\_i = (-1)^i
 \\alpha\_{1,1} & \\alpha\_{1,2} & \\cdots & \\alpha\_{1,n}\\\\\\\\
 \\alpha\_{2,1} & \\alpha\_{2,2} & \\cdots & \\alpha\_{2,n}\\\\\\\\
 \\vdots & \\vdots & \\ddots & \\vdots\\\\\\\\
-\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}\\\\\\\\
+\\alpha\_{n,1} & \\alpha\_{n,2} & \\cdots & \\alpha\_{n,n}
 \\end{vmatrix}
 }
 \\]
