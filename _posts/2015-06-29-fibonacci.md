@@ -43,14 +43,14 @@ We express the Fibonacci sequence in this basis. We must have for all \\(i \\ge
 thus
 \\[
 \\begin{align}
-\\text{for } i = 0 \\text{:}\\hskip 3em& 0 = \\lambda + \\mu\\\\
+\\text{for } i = 0 \\text{:}\\hskip 3em& 0 = \\lambda + \\mu\\\\\\\\
 \\text{for } i = 1 \\text{:}\\hskip 3em& 1 = \\lambda \\left(\\frac{1+\\sqrt{5}}{2}\\right) + \\mu \\left(\\frac{1-\\sqrt{5}}{2}\\right)
 \\end{align}
 \\]
 from there
 \\[
 \\begin{cases}
-\\lambda = \\frac{\\sqrt{5}}{5}\\\\
+\\lambda = \\frac{\\sqrt{5}}{5}\\\\\\\\
 \\mu = -\\frac{\\sqrt{5}}{5}
 \\end{cases}
 \\]
