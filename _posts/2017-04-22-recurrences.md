@@ -33,5 +33,5 @@ A\_N &= (1 - \\frac{a}{N}) A\_{N-1} + b\\\\\\\\
      &= \\frac{b}{1+a} N - \\frac{ab}{1+a} + b\\\\\\\\
      &= \\frac{b}{1+a} N - \\frac{ab}{1+a} + \\frac{b+ab}{1+a}\\\\\\\\
      &= \\frac{b}{1+a} N + \\frac{b}{1+a}\\\\\\\\
-     &= \\frac{b}{1+a} (N+1)
+     &= \\frac{b}{1+a} (N+1).
 \\end{align}
