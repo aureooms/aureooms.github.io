@@ -1,5 +1,5 @@
 ---
-title: Smallish
+title: Log Log Log
 ---
 
 \\[
