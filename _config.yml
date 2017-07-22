@@ -1,10 +1,10 @@
 # Site settings
 title: "Aurélien's personal website"
-description: "aureooms website"
+description: "Aurélien's personal website"
 url: "https://aureooms.github.io"
 author:
   name: "Aurélien Ooms"
-  email: "aurelien.ooms@riseup.net"
+  email: "aurelien.ooms@gmail.com"
   url: "https://aureooms.github.io"
 
 # Build settings
