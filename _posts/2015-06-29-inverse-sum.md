@@ -2,38 +2,48 @@
 title: Inverse sum equations
 ---
 
-We are given \\(k > 0 \\in \\mathbb{R}\\) and \\(a\_1, a\_2, \\ldots, a\_n \\ge 1 \\in \\mathbb{N}\\) such that
-\\[
-a\_1 < a\_2 < \cdots < a\_n.
-\\]
+We are given $$k > 0 \in \mathbb{R}$$ and $$a_1, a_2, \ldots, a_n \ge 1 \in \mathbb{N}$$ such that
+
+$$
+a_1 < a_2 < \cdots < a_n.
+$$
+
 We want to solve the following equation
-\\[
-\\frac{1}{a\_1} +
-\\frac{1}{a\_2} +
-\\cdots +
-\\frac{1}{a\_n} = k.
-\\]
+
+$$
+\frac{1}{a_1} +
+\frac{1}{a_2} +
+\cdots +
+\frac{1}{a_n} = k.
+$$
 
 Note that we have
-\\[
-\\frac{1}{a\_1} >
-\\frac{1}{a\_2} >
-\\cdots >
-\\frac{1}{a\_n}
-\\]
+
+$$
+\frac{1}{a_1} >
+\frac{1}{a_2} >
+\cdots >
+\frac{1}{a_n}
+$$
+
 and thus
-\\[
-n \cdot \\frac{1}{a\_1} >
-\\frac{1}{a\_1} +
-\\frac{1}{a\_2} +
-\\cdots +
-\\frac{1}{a\_n} = k.
-\\]
+
+$$
+n \cdot \frac{1}{a_1} >
+\frac{1}{a_1} +
+\frac{1}{a_2} +
+\cdots +
+\frac{1}{a_n} = k.
+$$
+
 Hence,
-\\(a\_1 < \frac{n}{k}\\)
+
+$$a_1 < \frac{n}{k}$$
+
 and we only have a finite number of candidate solutions to test.
 
-  - [Brute-force search implementation](https://cloud.sagemath.com/projects/00bf44da-33dd-49ad-a9d5-54c2182f171e/files/inverse-sum.sagews)
+  - [Brute-force search implementation](https://cocalc.com/projects/00bf44da-33dd-49ad-a9d5-54c2182f171e/files/inverse-sum.sagews)
 
 Inspired from an exercise in
- > BÓNA, Miklós. A walk through combinatorics: an introduction to enumeration and graph theory. World scientific, 2011.
+
+> BÓNA, Miklós. A walk through combinatorics: an introduction to enumeration and graph theory. World scientific, 2011.

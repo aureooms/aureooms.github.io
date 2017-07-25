@@ -2,8 +2,8 @@
 title: Quantum Computer Algorithms
 ---
 
-[Scanned notes](https://ipfs.io/ipfs/QmctoycyfhWTrDy4c4jZeyLcRmmutFii5H5RLGk7pMbDoS)
-containing all the following:
+[Notes](https://ipfs.io/ipfs/QmctoycyfhWTrDy4c4jZeyLcRmmutFii5H5RLGk7pMbDoS)
+from June 2015 containing the following:
 [Phase kick-back](https://ipfs.io/ipfs/QmP44FjtNGGS5zvoyhxveNSJshvSobKrfQdEcxRLurqaon),
 [Deutsch's algorithm](https://ipfs.io/ipfs/Qma3KPLTHexwfstuK9cWaR5f9EfJcw5z7Se4Pi3Qs8sHfF),
 [Fourier sampling](https://ipfs.io/ipfs/QmQdQ4cit6t32D7AmFhZzF2wLtkmVv5qTBDVt1N5XXhSwc),
