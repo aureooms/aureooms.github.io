@@ -6,14 +6,15 @@ Among the identities that are useful in the analysis of algorithms,
 this one shows how sums of geometric series converge when the ratio
 is smaller than one (in absolute value). It occurs in divide an conquer
 schemes. For example, it allows to show that hierarchical cuttings for $$n$$
-hyperplanes in $$d$$ dimensions only need space proportional to $$r^{d-1}n^d$$.
+hyperplanes in $$d$$ dimensions only need space proportional to $$n^d$$.
 
 $$
 \sum_{i=0}^{\infty} \binom{i+j}{j} x^i = \frac{1}{ {(1-x)}^{j+1} },
 \forall j \in \mathbb{N}, \forall x \in (-1,1).
 $$
 
-That's nice. There are many ways to prove it, a cool one is to first prove that
+That's nice. There are many ways to prove it, a cool one is to first
+[prove](https://aureooms.github.io/converging-series) that
 
 $$
 \sum_{i=0}^{\infty} x^i = \frac{1}{ {(1-x)} },
