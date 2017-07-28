@@ -14,7 +14,7 @@ params:
   # Use custom.css for your custom styling
   style: blue
   name: Aurélien Ooms
-  role: PhD Student
+  role: PhD student
   organization: Université libre de Bruxelles
   portrait: img/portrait.jpg
   bio: >
