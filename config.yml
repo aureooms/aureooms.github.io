@@ -84,7 +84,9 @@ params:
     - url: https://stackoverflow.com/users/1582182/aurelien-ooms
       title: Stack Overflow
       image: https://ipfs.io/ipfs/QmXpeQbmRRLTVFsfnnFxWYUhSA6fpFNHm6qSQz9mh4us2p
-      description: I have not answered a single question since December 2014 but my reputation keeps going up. Someone knows how to stop this?
+      description: >
+        I have not answered a single question since December 2014
+        but my reputation keeps going up. Someone knows how to stop this?
 
     - url: https://keybase.io/aureooms
       title: Keybase
