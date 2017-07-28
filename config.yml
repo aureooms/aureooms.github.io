@@ -33,7 +33,7 @@ params:
       description: >
         I have an office there. And when I say an office, I mean, the best office.
         Maybe the greatest in the story of officeship.
-      image: https://algo.ulb.be/img/delaunay.png
+      image: https://ipfs.io/ipfs/QmVrNN6aNZNY8WS9Rrev49M8kWWAWmorzTn1JCb4J5ZdWe
 
     - url: mailto:aurelien.ooms@gmail.com
       description: >
@@ -43,12 +43,12 @@ params:
         __aurelien.ooms@gmail.com__
         Note that I did not replace the @ with an image.
       title: Electronic Mail
-      image: https://media.giphy.com/media/mGXT4ZGZXHlJe/giphy.gif
+      image: https://ipfs.io/ipfs/QmPGDBxUp64pVpbjiy5Vo7SS8L4ALegZXfjxhGKEEBvDA3
 
     - url: /math
       title: Math
       description: My math weblog. Dumb yourself down before reading.
-      image: https://cdn.kastatic.org/googleusercontent/QWlTwkzBsGwXud6rz_GCZzLwy0rwD_qjrWcL-O2HVgfGDe8bGD6HoQuG86zzhr2ocSvTwLh7l1GAW13doDrZuBGg
+      image: https://ipfs.io/ipfs/QmcVx48jAyJLPiCuZRRiLG219LPhb6VhFRTVSkoqyDSSxV
 
     - url: https://github.com/aureooms
       title: Github
@@ -58,12 +58,12 @@ params:
 
     - url: http://camillacs.piwigo.com
       title: Camillacs
-      image: http://camillacs.piwigo.com/_datas/z/5/l/z5l7yr5fa6/i/uploads/z/5/l/z5l7yr5fa6//2013/05/30/20130530185012-971717b0-me.jpg
-      description: Estelle's father's pictures. Joli.
+      image: https://ipfs.io/ipfs/QmSWYFCdMvavVLuvfpAZzkmFZ4kpmKPiiAmLwRNvuLZ15M
+      description: Estelle's father's photographs. Extrêmement joli.
 
     - url: https://en.wikipedia.org/wiki/Peyresq
       title: Peyresq
-      image: http://dailyscience.be/wordpress/wp-content/uploads/2015/08/peyresq-entree-village-720x314.jpg
+      image: https://ipfs.io/ipfs/QmQ18HyrHAyme4vX1LTNQxLKS6HU4p2Rs9n5NDzK9ixRdq
       description: >
         And here is [the page in french](https://fr.wikipedia.org/wiki/Peyresq),
         the [organization to book for leisure](http://www.propeyresq.be), and the
@@ -78,24 +78,26 @@ params:
 
     - url: https://projecteuler.net/profile/aureooms.png
       title: Project Euler
-      image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Leonhard_Euler_2.jpg/200px-Leonhard_Euler_2.jpg
+      image: https://ipfs.io/ipfs/QmVzQSdjXhmERTQbe2S33ifSxYZwaFjYs22wbocjYUYJmL
       description: It has been a long time I have made some progress on those...
 
     - url: https://stackoverflow.com/users/1582182/aurelien-ooms
       title: Stack Overflow
-      image: https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png
+      image: https://ipfs.io/ipfs/QmXpeQbmRRLTVFsfnnFxWYUhSA6fpFNHm6qSQz9mh4us2p
       description: I have not answered a single question since December 2014 but my reputation keeps going up. Someone knows how to stop this?
 
     - url: https://keybase.io/aureooms
       title: Keybase
-      image: http://www.qownnotes.org/var/bekerle/storage/images/media/images/keybase.io-logo/4231-1-eng-GB/keybase.io-logo.png
+      image: https://ipfs.io/ipfs/QmZfiBFD8LQUJmuyoKj4kvBMt69ozgT3Q7maJev6Sy4VEm
       pad: yes
       description: >
-        I do not even remember what this is for. Ah yes, some cool kid stuff. My PGP key is there.
+        I do not even remember what this is for. Ah yes, some cool kid stuff.
+        My PGP key is there.
+        Does that even make sense?
 
     - url: http://aureooms.wolkom.net
       title: Old page
-      image: http://majaderos.com/wp-content/uploads/2014/04/Something_in_the_attic_John_Welding.jpg
+      image: https://ipfs.io/ipfs/QmTfsNvspEftzAMmmop5paxAMdaGNGFb86r8oQ1q76vRWf
       description: Will get rid of it at some point.
 
     - url: http://homepages.ulb.ac.be/~slanger/cg/hsaureooms/def.html
