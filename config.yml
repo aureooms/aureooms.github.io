@@ -93,3 +93,17 @@ params:
       description: >
         I do not even remember what this is for. Ah yes, some cool kid stuff. My PGP key is there.
 
+    - url: http://aureooms.wolkom.net
+      title: Old page
+      image: http://majaderos.com/wp-content/uploads/2014/04/Something_in_the_attic_John_Welding.jpg
+      description: Will get rid of it at some point.
+
+    - url: http://homepages.ulb.ac.be/~slanger/cg/hsaureooms/def.html
+      title: Ham-Sandwich cuts
+      image: https://ipfs.io/ipfs/QmSVsPBSQjsJM4bew4zB8JqiGpF984gfjFwbAAUd7MMWQ2
+      description: Computational Geometry project from back in the dayz (2014).
+
+    - url: http://aureooms.wolkom.net/infof521/#!
+      title: Chinese postman
+      image: https://ipfs.io/ipfs/Qme2rxbnN5Db3vAhwU4pqoYenKvuRLCYZjyR93xHaBGcTv
+      description: Graph optimization project from back in the dayz (2014).
