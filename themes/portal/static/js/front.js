@@ -6,7 +6,47 @@ $(function () {
     carousels();
     utils();
     highlightCurrentPage();
+    octo();
 });
+
+function octo ( ) {
+
+  $.ajax( 'https://octodex.github.com' )
+  .done( function ( data ) {
+
+    var re = /\/images\/.*\.png/g ;
+
+    var m;
+
+    var octolist = [ ] ;
+
+    while ( m = re.exec( data ) ) octolist.push( m[0] ) ;
+
+    var imgs = $('img[src="https://octodex.github.com/images/original.png"]') ;
+
+    setInterval( function ( octolist , imgs ) {
+
+        imgs.each( function ( ) {
+
+          var img = $(this) ;
+
+          var octorand = octolist[Math.floor(Math.random() * octolist.length)] ;
+
+          if ( octorand === img.attr('src') ) return ;
+
+          img.fadeTo(1500,0.30, function() {
+            img.attr('src', 'https://octodex.github.com' + octorand);
+            img.on('load', function(){
+              img.fadeTo(1000,1);
+            });
+          });
+
+        } ) ;
+    } , 10000 , octolist , imgs ) ;
+
+  }) ;
+
+}
 
 function highlightCurrentPage() {
   $("a[href='" + location.href + "']").parent().addClass("active");

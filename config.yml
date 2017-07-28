@@ -52,7 +52,7 @@ params:
 
     - url: https://github.com/aureooms
       title: Github
-      image: http://random-octocat.herokuapp.com
+      image: https://octodex.github.com/images/original.png
       description: >
         My Github page. Mostly JavaScript code and dotfiles. And this page, obviously.
 
