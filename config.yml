@@ -1,0 +1,95 @@
+title: "Aurélien's personal website"
+baseurl: https://aureooms.github.io"
+author:
+  name: Aurélien Ooms
+  email: aurelien.ooms@gmail.com
+  url: https://aureooms.github.io
+
+theme: portal
+
+languageCode: en-us
+
+params:
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style: blue
+  name: Aurélien Ooms
+  role: PhD Student
+  organization: Université libre de Bruxelles
+  portrait: img/portrait.jpg
+  bio: >
+    Do not take this page too unseriously. It is a portal to many important
+    places on the internet.
+
+  links:
+
+    - url: http://homepages.ulb.ac.be/~aureooms
+      title: Academic page
+      description: My academic page. With papers, slides and stuff.
+      image: https://ipfs.io/ipfs/Qmbr5qsfjDzCjyqb5rHPRErCnenih8Aisoi9gHez9J5mYE
+
+    - url: https://algo.ulb.be
+      title: Algorithms group
+      description: >
+        I have an office there. And when I say an office, I mean, the best office.
+        Maybe the greatest in the story of officeship.
+      image: https://algo.ulb.be/img/delaunay.png
+
+    - url: mailto:aurelien.ooms@gmail.com
+      description: >
+        Only works for actual persons. No clever AI bot could go through my
+        firewall... Do not even think about it.
+        Here it is if you prefer the old school copy paste:
+        __aurelien.ooms@gmail.com__
+        Note that I did not replace the @ with an image.
+      title: Electronic Mail
+      image: https://media.giphy.com/media/mGXT4ZGZXHlJe/giphy.gif
+
+    - url: /math
+      title: Math
+      description: My math weblog. Dumb yourself down before reading.
+      image: https://cdn.kastatic.org/googleusercontent/QWlTwkzBsGwXud6rz_GCZzLwy0rwD_qjrWcL-O2HVgfGDe8bGD6HoQuG86zzhr2ocSvTwLh7l1GAW13doDrZuBGg
+
+    - url: https://github.com/aureooms
+      title: Github
+      image: http://random-octocat.herokuapp.com
+      description: >
+        My Github page. Mostly JavaScript code and dotfiles. And this page, obviously.
+
+    - url: http://camillacs.piwigo.com
+      title: Camillacs
+      image: http://camillacs.piwigo.com/_datas/z/5/l/z5l7yr5fa6/i/uploads/z/5/l/z5l7yr5fa6//2013/05/30/20130530185012-971717b0-me.jpg
+      description: Estelle's father's pictures. Joli.
+
+    - url: https://en.wikipedia.org/wiki/Peyresq
+      title: Peyresq
+      image: http://dailyscience.be/wordpress/wp-content/uploads/2015/08/peyresq-entree-village-720x314.jpg
+      description: >
+        And here is [the page in french](https://fr.wikipedia.org/wiki/Peyresq),
+        the [organization to book for leisure](http://www.propeyresq.be), and the
+        [organization to book for workshops](http://www.peiresc.org).
+
+
+    - url: https://en.wikipedia.org/wiki/User:Aureooms
+      description: My user page on Wikipedia. Not much activity for the moment.
+      title: Wikipedia
+      pad: yes
+      image: https://ipfs.io/ipfs/QmSERYFEA7NGVfpAMXQzGvZp6yptUXb9EJyvK48bdu6Db2
+
+    - url: https://projecteuler.net/profile/aureooms.png
+      title: Project Euler
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Leonhard_Euler_2.jpg/200px-Leonhard_Euler_2.jpg
+      description: It has been a long time I have made some progress on those...
+
+    - url: https://stackoverflow.com/users/1582182/aurelien-ooms
+      title: Stack Overflow
+      image: https://imgs.xkcd.com/comics/wisdom_of_the_ancients.png
+      description: I have not answered a single question since December 2014 but my reputation keeps going up. Someone knows how to stop this?
+
+    - url: https://keybase.io/aureooms
+      title: Keybase
+      image: http://www.qownnotes.org/var/bekerle/storage/images/media/images/keybase.io-logo/4231-1-eng-GB/keybase.io-logo.png
+      pad: yes
+      description: >
+        I do not even remember what this is for. Ah yes, some cool kid stuff. My PGP key is there.
+
