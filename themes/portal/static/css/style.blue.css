@@ -477,21 +477,21 @@ OFF-CANVAS SIDEBAR BEHAVIOUR
     /* 6 columns */
   }
   .row-offcanvas-left .sidebar-offcanvas {
-    left: -48%;
+    left: -70%;
     /* 6 columns */
   }
   .row-offcanvas-right.active {
-    right: 50%;
+    right: 40%;
     /* 6 columns */
   }
   .row-offcanvas-left.active {
-    left: 50%;
+    left: 80%;
     /* 6 columns */
   }
   .sidebar-offcanvas {
     position: absolute;
     top: 0;
-    width: 50%;
+    width: 60%;
     /* 6 columns */
   }
 }

@@ -11,8 +11,9 @@
 }
 
 #profile .portrait {
-  width: 200px;
-  height: 200px;
+  width: 75%;
+  padding-top: 75%;
+  height: 0;
   margin: 0 auto;
   border-radius: 50%;
   background-size: cover;
