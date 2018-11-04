@@ -105,11 +105,6 @@ params:
         My PGP key is there.
         Does that even make sense?
 
-    - url: http://aureooms.wolkom.net
-      title: Old page
-      image: https://ipfs.io/ipfs/QmTfsNvspEftzAMmmop5paxAMdaGNGFb86r8oQ1q76vRWf
-      description: Will get rid of it at some point.
-
     - url: https://aureooms-research.github.io/pats-game
       title: Pat's game solution zoo
       image: https://ipfs.io/ipfs/QmV3CVP7y7n4wTEHDpaaLnEnfxEPH1iPZJfHshG6fDqV7f
@@ -123,11 +118,6 @@ params:
       title: Ham-Sandwich cuts
       image: https://ipfs.io/ipfs/QmSVsPBSQjsJM4bew4zB8JqiGpF984gfjFwbAAUd7MMWQ2
       description: Computational Geometry project from back in the dayz (2014).
-
-    - url: http://aureooms.wolkom.net/infof521/#!
-      title: Chinese postman
-      image: https://ipfs.io/ipfs/Qme2rxbnN5Db3vAhwU4pqoYenKvuRLCYZjyR93xHaBGcTv
-      description: Graph optimization project from back in the dayz (2014).
 
     - url: https://ipfs.io/ipfs/QmaEaS5ATPpQfFrc9WVAP9n6ZVFUNZGxTtP46ntruEfFhM
       title: Fishtube
