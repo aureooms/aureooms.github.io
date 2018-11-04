@@ -50,6 +50,11 @@ params:
       description: My math weblog. Dumb yourself down before reading.
       image: https://ipfs.io/ipfs/QmcVx48jAyJLPiCuZRRiLG219LPhb6VhFRTVSkoqyDSSxV
 
+    - url: /blog
+      title: Blog
+      description: My weblog. Might (not) be a waste of time.
+      image: https://ipfs.io/ipfs/QmdChaHN53fppnBMc29j3UiCo1p99FehyasAHhEd75usXq
+
     - url: https://github.com/aureooms
       title: Github
       image: https://octodex.github.com/images/original.png
