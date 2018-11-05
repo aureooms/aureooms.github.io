@@ -112,7 +112,7 @@ params:
 
     - url: https://aureooms-research.github.io/pats-game
       title: Pat's game solution zoo
-      image: https://ipfs.io/ipfs/QmV3CVP7y7n4wTEHDpaaLnEnfxEPH1iPZJfHshG6fDqV7f
+      image: https://ipfs.io/ipfs/QmVtF284fAc25qCPoq5ADVLxfbGnC5BaGNMKwpKog1SPJN
       description: >
         [Website](https://aureooms-research.github.io/pats-game)
         displaying solutions for the game found in
