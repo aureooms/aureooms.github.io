@@ -26,14 +26,14 @@ params:
     - url: https://research.aurelienooms.be/~aureooms
       title: Academic page
       description: My academic page. With papers, slides and stuff.
-      image: https://ipfs.io/ipfs/Qmbr5qsfjDzCjyqb5rHPRErCnenih8Aisoi9gHez9J5mYE
+      image: https://ipfs.c.ovfefe.cf/ipfs/Qmbr5qsfjDzCjyqb5rHPRErCnenih8Aisoi9gHez9J5mYE
 
     - url: https://algo.ulb.be
       title: Algorithms group
       description: >
         I have an office there. And when I say an office, I mean, the best office.
         Maybe the greatest in the history of officeship.
-      image: https://ipfs.io/ipfs/QmVrNN6aNZNY8WS9Rrev49M8kWWAWmorzTn1JCb4J5ZdWe
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmVrNN6aNZNY8WS9Rrev49M8kWWAWmorzTn1JCb4J5ZdWe
 
     - url: mailto:aurelien.ooms@gmail.com
       description: >
@@ -43,17 +43,17 @@ params:
         __aurelien.ooms@gmail.com__
         Note that I did not replace the @ with an image.
       title: Electronic Mail
-      image: https://ipfs.io/ipfs/QmPGDBxUp64pVpbjiy5Vo7SS8L4ALegZXfjxhGKEEBvDA3
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmPGDBxUp64pVpbjiy5Vo7SS8L4ALegZXfjxhGKEEBvDA3
 
     - url: /math
       title: Math
       description: My math weblog. Dumb yourself down before reading.
-      image: https://ipfs.io/ipfs/QmcVx48jAyJLPiCuZRRiLG219LPhb6VhFRTVSkoqyDSSxV
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmcVx48jAyJLPiCuZRRiLG219LPhb6VhFRTVSkoqyDSSxV
 
     - url: /blog
       title: Blog
       description: My weblog. Might (not) be a waste of time.
-      image: https://ipfs.io/ipfs/QmdChaHN53fppnBMc29j3UiCo1p99FehyasAHhEd75usXq
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmdChaHN53fppnBMc29j3UiCo1p99FehyasAHhEd75usXq
 
     - url: https://github.com/aureooms
       title: Github
@@ -63,17 +63,17 @@ params:
 
     - url: https://linkedin.com/in/estelle-chasseloup-66a40499
       title: Estelle Chasseloup
-      image: https://ipfs.io/ipfs/QmcoBxYCMKcPs3Et2RjUrbZp4vxdYvTAoz7CVJc8w6m2jD
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmcoBxYCMKcPs3Et2RjUrbZp4vxdYvTAoz7CVJc8w6m2jD
       description: Just Estelle.
 
     - url: http://camillacs.piwigo.com
       title: Camillacs
-      image: https://ipfs.io/ipfs/QmSWYFCdMvavVLuvfpAZzkmFZ4kpmKPiiAmLwRNvuLZ15M
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmSWYFCdMvavVLuvfpAZzkmFZ4kpmKPiiAmLwRNvuLZ15M
       description: Estelle's father's photographs. Extrêmement joli.
 
     - url: https://en.wikipedia.org/wiki/Peyresq
       title: Peyresq
-      image: https://ipfs.io/ipfs/QmQ18HyrHAyme4vX1LTNQxLKS6HU4p2Rs9n5NDzK9ixRdq
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmQ18HyrHAyme4vX1LTNQxLKS6HU4p2Rs9n5NDzK9ixRdq
       description: >
         My flemish teacher once thought I misspelled Paris when writing about
         my summer vacation.
@@ -87,23 +87,23 @@ params:
       description: My user page on Wikipedia. Not much activity for the moment.
       title: Wikipedia
       pad: yes
-      image: https://ipfs.io/ipfs/QmSERYFEA7NGVfpAMXQzGvZp6yptUXb9EJyvK48bdu6Db2
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmSERYFEA7NGVfpAMXQzGvZp6yptUXb9EJyvK48bdu6Db2
 
     - url: https://projecteuler.net/profile/aureooms.png
       title: Project Euler
-      image: https://ipfs.io/ipfs/QmVzQSdjXhmERTQbe2S33ifSxYZwaFjYs22wbocjYUYJmL
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmVzQSdjXhmERTQbe2S33ifSxYZwaFjYs22wbocjYUYJmL
       description: It has been a long time I have made some progress on those...
 
     - url: https://stackoverflow.com/users/1582182/aurelien-ooms
       title: Stack Overflow
-      image: https://ipfs.io/ipfs/QmXpeQbmRRLTVFsfnnFxWYUhSA6fpFNHm6qSQz9mh4us2p
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmXpeQbmRRLTVFsfnnFxWYUhSA6fpFNHm6qSQz9mh4us2p
       description: >
         I have not answered a single question since December 2014
         but my reputation keeps going up. Someone knows how to stop this?
 
     - url: https://keybase.io/aureooms
       title: Keybase
-      image: https://ipfs.io/ipfs/QmZfiBFD8LQUJmuyoKj4kvBMt69ozgT3Q7maJev6Sy4VEm
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmZfiBFD8LQUJmuyoKj4kvBMt69ozgT3Q7maJev6Sy4VEm
       pad: yes
       description: >
         I do not even remember what this is for. Ah yes, some cool kid stuff.
@@ -112,7 +112,7 @@ params:
 
     - url: https://aureooms-research.github.io/pats-game
       title: Pat's game solution zoo
-      image: https://ipfs.io/ipfs/QmVtF284fAc25qCPoq5ADVLxfbGnC5BaGNMKwpKog1SPJN
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmVtF284fAc25qCPoq5ADVLxfbGnC5BaGNMKwpKog1SPJN
       description: >
         [Website](https://aureooms-research.github.io/pats-game)
         displaying solutions for the game found in
@@ -121,10 +121,10 @@ params:
 
     - url: http://homepages.ulb.ac.be/~slanger/cg/hsaureooms/def.html
       title: Ham-Sandwich cuts
-      image: https://ipfs.io/ipfs/QmSVsPBSQjsJM4bew4zB8JqiGpF984gfjFwbAAUd7MMWQ2
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmSVsPBSQjsJM4bew4zB8JqiGpF984gfjFwbAAUd7MMWQ2
       description: Computational Geometry project from back in the dayz (2014).
 
-    - url: https://ipfs.io/ipfs/QmaEaS5ATPpQfFrc9WVAP9n6ZVFUNZGxTtP46ntruEfFhM
+    - url: https://ipfs.c.ovfefe.cf/ipfs/QmaEaS5ATPpQfFrc9WVAP9n6ZVFUNZGxTtP46ntruEfFhM
       title: Fishtube
-      image: https://ipfs.io/ipfs/QmNapSHCRJ2K5DsGoQHfEHhRUhxVUyqGdzYiZkfsKnSrj4
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmNapSHCRJ2K5DsGoQHfEHhRUhxVUyqGdzYiZkfsKnSrj4
       description: Some fine coding right there (2013).
