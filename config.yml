@@ -1,9 +1,9 @@
 title: "Aurélien's personal website"
-baseurl: https://aureooms.github.io
+baseurl: https://aurelienooms.be
 author:
   name: Aurélien Ooms
   email: aurelien.ooms@gmail.com
-  url: https://aureooms.github.io
+  url: https://aurelienooms.be
 
 theme: portal
 
@@ -23,7 +23,7 @@ params:
 
   links:
 
-    - url: http://homepages.ulb.ac.be/~aureooms
+    - url: https://research.aurelienooms.be/~aureooms
       title: Academic page
       description: My academic page. With papers, slides and stuff.
       image: https://ipfs.io/ipfs/Qmbr5qsfjDzCjyqb5rHPRErCnenih8Aisoi9gHez9J5mYE

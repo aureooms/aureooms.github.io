@@ -1,15 +1,17 @@
-# aureooms.github.io
+# Aurélien's personal webpage
 Interwebster portal
 
 ##### Build
 ```console
-hugo
+make
 ```
 
 ##### Serve locally
 ```console
-hugo server
+make serv
 ```
 
-##### Upload
-See [Hugo's docs](https://gohugo.io/hosting-and-deployment/hosting-on-github/#initialize-your-gh-pages-branch).
+##### Deploy
+```console
+make deploy
+```

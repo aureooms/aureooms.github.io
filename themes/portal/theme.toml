@@ -9,7 +9,7 @@ min_version = 0.17
 
 [author]
   name = "Aurélien Ooms"
-  homepage = "https://aureooms.github.io"
+  homepage = "https://aurelienooms.be"
 
 # If porting an existing theme
 [original]
