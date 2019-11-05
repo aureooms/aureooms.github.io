@@ -45,12 +45,12 @@ params:
       title: Electronic Mail
       image: https://ipfs.c.ovfefe.cf/ipfs/QmPGDBxUp64pVpbjiy5Vo7SS8L4ALegZXfjxhGKEEBvDA3
 
-    - url: /math
+    - url: https://math.aurelienooms.be
       title: Math
       description: My math weblog. Dumb yourself down before reading.
       image: https://ipfs.c.ovfefe.cf/ipfs/QmcVx48jAyJLPiCuZRRiLG219LPhb6VhFRTVSkoqyDSSxV
 
-    - url: /blog
+    - url: https://blog.aurelienooms.be
       title: Blog
       description: My weblog. Might (not) be a waste of time.
       image: https://ipfs.c.ovfefe.cf/ipfs/QmdChaHN53fppnBMc29j3UiCo1p99FehyasAHhEd75usXq
