@@ -26,12 +26,24 @@ params:
     - url: https://research.aurelienooms.be
       title: Academic page
       description: My academic page. With papers, slides and stuff.
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmSFUe5etCVrEyJDubD2uheHT5raD7MzYXY6Y8aqmhe1dw
+
+    - url: https://papers.aurelienooms.be
+      title: Papers
+      description: List of scientific publications to which some contribution was made.
       image: https://ipfs.c.ovfefe.cf/ipfs/Qmbr5qsfjDzCjyqb5rHPRErCnenih8Aisoi9gHez9J5mYE
+
+    - url: https://barc.ku.dk
+      title: BARC center
+      description: >
+        I have an office there. And when I say an office, I mean, the best office.
+        Maybe the greatest in the history of officeship.
+      image: https://ipfs.c.ovfefe.cf/ipfs/QmXkZbvaGRYT6KS67aRTS6H7sYrbeQu135emRRkWfD8tno
 
     - url: https://algo.ulb.be
       title: Algorithms group
       description: >
-        I have an office there. And when I say an office, I mean, the best office.
+        I used to have an office there. And when I say an office, I mean, the best office.
         Maybe the greatest in the history of officeship.
       image: https://ipfs.c.ovfefe.cf/ipfs/QmVrNN6aNZNY8WS9Rrev49M8kWWAWmorzTn1JCb4J5ZdWe
 
