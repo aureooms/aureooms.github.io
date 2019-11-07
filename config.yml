@@ -14,8 +14,8 @@ params:
   # Use custom.css for your custom styling
   style: blue
   name: Aurélien Ooms
-  role: PhD student
-  organization: Université libre de Bruxelles
+  role: Human
+  organization: Planet Earth
   portrait: img/portrait.jpg
   bio: >
     Do not take this page too unseriously. It is a portal to many important
