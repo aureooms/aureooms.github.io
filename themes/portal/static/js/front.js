@@ -14,13 +14,13 @@ function octo ( ) {
   $.ajax( 'https://octodex.github.com' )
   .done( function ( data ) {
 
-    var re = /\/images\/.*\.png/g ;
+    var re = /data-src="(\/images\/[^"]*\.png)"/g ;
 
     var m;
 
     var octolist = [ ] ;
 
-    while ( m = re.exec( data ) ) octolist.push( m[0] ) ;
+    while ( m = re.exec( data ) ) octolist.push( m[1] ) ;
 
     var imgs = $('img[src="https://octodex.github.com/images/original.png"]') ;
 
