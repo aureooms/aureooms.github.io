@@ -11,7 +11,6 @@ serv:
 
 public:
 	hugo
-	sed 's:<priority>0</priority>:<priority>1</priority>:g' public/sitemap.xml -i
 
 upload:
 	rsync -rhv --progress --delete public/ /var/www/aurelienooms.be
