@@ -211,6 +211,8 @@ $.fn.alignElementsSameHeight = function () {
     });
 }
 
+var windowWidth = 0;
+
 $(window).load(function () {
 
     windowWidth = $(window).width();
@@ -220,7 +222,7 @@ $(window).load(function () {
 });
 $(window).resize(function () {
 
-    newWindowWidth = $(window).width();
+    var newWindowWidth = $(window).width();
 
     if (windowWidth !== newWindowWidth) {
         setTimeout(function () {
