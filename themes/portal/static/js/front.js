@@ -212,6 +212,7 @@ $.fn.alignElementsSameHeight = function () {
 }
 
 var windowWidth = 0;
+var alignTimeout = null;
 
 $(window).load(function () {
 
@@ -225,7 +226,9 @@ $(window).resize(function () {
     var newWindowWidth = $(window).width();
 
     if (windowWidth !== newWindowWidth) {
-        setTimeout(function () {
+        clearTimeout(alignTimeout);
+        alignTimeout = setTimeout(function () {
+            alignTimeout = null;
             $(this).alignElementsSameHeight();
         }, 205);
         windowWidth = newWindowWidth;
