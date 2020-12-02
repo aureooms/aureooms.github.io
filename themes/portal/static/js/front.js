@@ -3,7 +3,6 @@ masonry();
 $(function () {
     offCanvas();
     lightbox();
-    carousels();
     utils();
     highlightCurrentPage();
     octo();
@@ -50,24 +49,6 @@ function octo ( ) {
 
 function highlightCurrentPage() {
   $("a[href='" + location.href + "']").parent().addClass("active");
-}
-
-/* =========================================
- *  carousels
- *  =======================================*/
-
-function carousels() {
-
-    $('#main-slider').owlCarousel({
-	navigation: true, // Show next and prev buttons
-	slideSpeed: 300,
-	paginationSpeed: 400,
-	autoPlay: true,
-	stopOnHover: true,
-	singleItem: true,
-	afterInit: ''
-    });
-
 }
 
 /* =========================================

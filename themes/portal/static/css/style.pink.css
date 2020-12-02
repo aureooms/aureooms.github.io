@@ -688,30 +688,6 @@ COPYRIGHT
 /*
 
 =====================
-MAIN PORTFOLIO SLIDER
-=====================
-
-*/
-#main-slider {
-  margin-bottom: 40px;
-  opacity: 0;
-}
-#main-slider ul li div {
-  width: 100%;
-}
-#main-slider .owl-wrapper-outer {
-  box-shadow: 0 1px 5px #ccc;
-}
-#main-slider .owl-controls .owl-buttons {
-  display: none;
-}
-#main-slider .owl-controls .owl-page.active span,
-#main-slider .owl-controls.clickable .owl-page:hover span {
-  background: #ef5285;
-}
-/*
-
-=====================
 ABOUT
 =====================
 
