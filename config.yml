@@ -89,15 +89,6 @@ params:
         I have not answered a single question since December 2014
         but my reputation keeps going up. Someone knows how to stop this?
 
-    - url: https://keybase.io/aureooms
-      title: Keybase
-      image: https://ipfs.xn--mxac.cc/ipfs/QmZfiBFD8LQUJmuyoKj4kvBMt69ozgT3Q7maJev6Sy4VEm
-      pad: yes
-      description: >
-        I do not even remember what this is for. Ah yes, some cool kid stuff.
-        My PGP key is there.
-        Does that even make sense?
-
     - url: https://research.aurelienooms.be
       title: Academic page
       description: My academic page. With papers, slides and stuff.
