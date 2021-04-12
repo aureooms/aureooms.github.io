@@ -12,5 +12,8 @@
       </div>
   </div>
   {{ partial "scripts.html" . }}
+  {{- if templates.Exists "partials/trackers.html" -}}
+    {{ partial "trackers.html" . }}
+  {{- end }}
 </body>
 </html>
